@@ -31,6 +31,7 @@ logr.add("This is a error entry", "ERROR");
 ```
 
 ## Change Log
+_Smaller bug fixes won't be added (Eg. Version x.x.1)_  
 Version 1.1.0
 - `logr.error` is now deprecated
 - Added types to `logr.add`
