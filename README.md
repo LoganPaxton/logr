@@ -4,7 +4,7 @@
 ## Features
 
 - Create new log files with timestamped filenames.
-- Append log entries with various types (e.g., LOG, ERROR, INFO).
+- Append log entries with various types (e.g., LOG, ERROR, WARN).
 - Simple and easy-to-use API.
 
 ## Installation
