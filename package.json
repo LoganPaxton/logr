@@ -1,6 +1,6 @@
 {
   "name": "logr-v1",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple logging utility for Node.js",
   "main": "logr.js",
   "devDependencies": {},
