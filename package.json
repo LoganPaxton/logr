@@ -1,0 +1,25 @@
+{
+  "name": "logr-v1",
+  "version": "1.0.0",
+  "description": "A simple logging utility for Node.js",
+  "main": "logr.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoganPaxton/logr.git"
+  },
+  "keywords": [
+    "logr",
+    "logging",
+    "log"
+  ],
+  "author": "LoganPaxton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoganPaxton/logr/issues"
+  },
+  "homepage": "https://github.com/LoganPaxton/logr#readme"
+}
