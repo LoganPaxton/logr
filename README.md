@@ -1,6 +1,7 @@
-# Logr [BETA]
-*Warning: Logr is in its beta stages, so expect bugs!*  
+# Logr
+A lightweight logging utility made for Node.js
 [![NPM badge](https://img.shields.io/npm/v/logr-v1?logo=npm)](https://www.npmjs.com/package/logr-v1)
+======
 
 ## Features
 
@@ -17,25 +18,31 @@ npm i logr-v1
 ```
 
 ## Usage
-To use this module, add these two lines of code:
+To use this module, you need to add these few lines of code.
 ```javascript
-const logr = require("logr")
+const { Logger } = require("logr-v1")
 
-logr.newLog(); // This will create a new log file
+const logr = new Logger(); // This will create a new Logr instance
 ```
-To start logging you can use `logr.add("Text", "LOG");` (Types are not case-sensitive)  
-**Note:** You must provide text, and define its type when using `logr.add()`
+Examples  
 ```javascript
-logr.add("This is a log entry", "LOG");
-logr.add("This is a warning entry", "WARN");
-logr.add("This is a error entry", "ERROR");
+logr.add("Text to log", "LOG"); // First argument is text to log. The second one is the type of log it will be (Eg. Log, error, warn)
+logr.add("Error to log", "ERROR");
+logr.add("Warning to log", "WARN");
+
+logr.output = true // This will log to the console and to the log file if set to true
 ```
+***Note:*** *Types are not case-sensitive*
+
 
 ## Change Log
 _Smaller bug fixes won't be added (Eg. Version x.x.1)_  
 Version 1.1.0
 - `logr.error` is now deprecated
 - Added types to `logr.add`
+<!-- -->
+Version 2.0.0
+- Completely revamped Logr (Check the usage)
 
 ## License
 This project is licensed under the Apache 2.0 License - See the LICENSE file for more details
