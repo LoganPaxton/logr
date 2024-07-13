@@ -1,5 +1,7 @@
 # Logr
 A lightweight logging utility made for Node.js
+[![NPM badge](https://img.shields.io/npm/v/logr-v1?logo=npm)](https://www.npmjs.com/package/logr-v1)
+======
 
 ## Features
 
