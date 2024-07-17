@@ -10,8 +10,8 @@
 
 ## Low-Priority
 - [ ] Edit docs
-- [ ] Create wiki
-- [ ] Create examples
+- [x] Create wiki
+- [x] Create examples
 - [ ] More configuration options
 - [ ] Testing
 - [ ] Make a dedicated changelog file
