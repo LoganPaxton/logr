@@ -4,6 +4,9 @@ A lightweight logging utility made for Node.js
 ![NPM Stats](https://img.shields.io/npm/dm/logr-v1.svg)
 ======
 
+> [!IMPORTANT]
+> As of 1/20/25, this repository in now archived. If you would like something added, fork it and create try to your own Logr.
+
 ## Milestones
 First, I just want to say thank you to those that have made this possible!  
 ✅ 100 Downloads (Reached on day 1!)  
@@ -11,8 +14,6 @@ First, I just want to say thank you to those that have made this possible!
 ❌ 300 Downloads  
 ❌ 400 Downloads  
 ❌ 500 Downloads  
-
-_Major update will be released on 500 downloads!_
 
 ## Features
 
